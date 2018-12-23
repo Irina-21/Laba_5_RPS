@@ -21,7 +21,7 @@ class CalculatorFrame extends JFrame {
 		setTitle("Calculator");
 		CalculatorPanel panel = new CalculatorPanel();
 		add(panel);
-		setSize(350, 400);
+		setSize(400, 500);
 		// pack();
 	}
 }
@@ -93,7 +93,7 @@ class CalculatorPanel extends JPanel {
 	private void addButton(String label, ActionListener listener) {
 		JButton button = new JButton(label);
 		button.addActionListener(listener);
-		button.setBackground(new Color(227, 243, 255));
+		button.setBackground(new Color(255, 155, 170));
 		button.setFont(new Font("TimesRoman", Font.PLAIN, 20));
 		panel.add(button);
 	}
