@@ -3,6 +3,14 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MainClass {
+	
+	public boolean check(int val) {
+		if (val==43556) {
+			return true;
+		}
+		else return false;
+	}
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
