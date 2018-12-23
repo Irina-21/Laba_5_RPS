@@ -3,7 +3,12 @@ import java.awt.event.*;
 import javax.swing.*;
 //import SmallInteger;
 
-public class MainClass {
+public class MainClass{
+	
+	public int full() {
+		return 3;
+	}
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
