@@ -8,6 +8,16 @@ public class MainClass{
 		return 3;
 	}
 	
+	public int check(int z) {
+		if (z>=3) {
+			return 0;
+		}
+		else if (z<=-6) {
+			return 1;
+		}
+		else return 3;
+	}
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
