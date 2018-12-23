@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-//import SmallInteger;
 
 public class MainClass {
 	public static void main(String[] args) {
